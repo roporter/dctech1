@@ -1,0 +1,412 @@
+TRACE 2016/04/07 08:02:51.290109 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:02:51.290157 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:02:51.290215 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:51.290256 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:02:51.290288 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:51.290312 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:51.290376 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:51.291936 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:02:51.292014 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"get", Command:"project", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:02:51.292028 commands.go:92: Running command(get) subcommand(project) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+ERROR 2016/04/07 08:02:51.295365 commands.go:98: Cannot find command get
+TRACE 2016/04/07 08:02:59.463780 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:02:59.463840 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:02:59.463880 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:59.463916 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:02:59.463952 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:59.463983 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:59.464024 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:02:59.465021 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:02:59.465115 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"project", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:02:59.465150 commands.go:92: Running command(project) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:02:59.465159 commands.go:160: objDesc.Name = "Projects"
+TRACE 2016/04/07 08:02:59.465236 projects.go:164: Starting ProjectService.Get()
+TRACE 2016/04/07 08:02:59.465259 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:02:59.549982 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:03:29.951226 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:03:29.951287 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:03:29.951334 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:29.951381 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:03:29.951437 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:29.951465 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:29.951507 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:29.952543 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:03:29.952644 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:03:29.952658 commands.go:92: Running command(release) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:03:29.952666 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:03:29.952731 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:03:29.952964 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:03:52.513039 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:03:52.513113 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:03:52.513162 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:52.513193 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:03:52.513233 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:52.513259 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:52.513290 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:03:52.514861 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:03:52.514926 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"default", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:03:52.514975 commands.go:92: Running command(default) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:03:52.514984 commands.go:160: objDesc.Name = "Defaults"
+TRACE 2016/04/07 08:03:52.515000 defaults.go:69: Starting DefaultsService.List()
+TRACE 2016/04/07 08:04:07.920632 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:04:07.920681 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:04:07.920731 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:07.920763 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:04:07.920797 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:07.920825 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:07.920884 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:07.921947 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:04:07.922000 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:04:07.922027 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:04:07.922036 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:04:07.922292 commands.go:98: Releases GetById: Required UUID argument releaseId not provided and no saved value of releaseId available
+TRACE 2016/04/07 08:04:25.744017 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:04:25.744103 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:04:25.744152 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:25.744181 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:04:25.744217 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:25.744243 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:25.744275 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:25.745879 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:04:25.745934 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"$", "be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:04:25.746002 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"$", "be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:04:25.746016 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:04:25.746087 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+TRACE 2016/04/07 08:04:25.746161 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/releases/be5054a1-fb28-11e5-9763-0242ac110859/status?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:04:25.813074 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:04:49.868861 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:04:49.868925 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:04:49.868980 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:49.869046 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:04:49.869099 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:49.869140 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:49.869172 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:04:49.870791 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:04:49.870879 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"$", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}}
+TRACE 2016/04/07 08:04:49.870922 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"$", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}) help(false)
+TRACE 2016/04/07 08:04:49.870933 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:04:49.870999 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+TRACE 2016/04/07 08:04:49.871076 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/releases/c46ee200-fb28-11e5-ae67-0242ac1103f9/status?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:04:49.931330 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:05:19.787465 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:05:19.787532 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:05:19.787590 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:19.787624 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:05:19.787658 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:19.787699 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:19.787751 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:19.789535 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:05:19.789616 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:05:19.789656 commands.go:92: Running command(release) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:05:19.789666 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:05:19.789706 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:05:19.789969 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:05:29.065422 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:05:29.065471 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:05:29.065532 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:29.065589 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:05:29.065627 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:29.065674 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:29.065701 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:29.066898 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:05:29.066978 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"c46ee200-fb28-11e5-ae67-0242ac1103f9"}}
+TRACE 2016/04/07 08:05:29.067006 commands.go:92: Running command(release) subcommand(get) args([]string{"c46ee200-fb28-11e5-ae67-0242ac1103f9"}) help(false)
+TRACE 2016/04/07 08:05:29.067017 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:05:29.067262 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:05:38.224205 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:05:38.224284 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:05:38.224391 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:38.224434 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:05:38.224491 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:38.224520 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:38.224566 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:38.225693 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:05:38.225793 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:05:38.225823 commands.go:92: Running command(release) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:05:38.225832 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:05:38.226143 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:05:55.154481 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:05:55.154536 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:05:55.154590 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:55.154624 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:05:55.154663 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:55.154689 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:55.154751 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:05:55.155737 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:05:55.155836 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"project", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:05:55.155852 commands.go:92: Running command(project) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:05:55.155861 commands.go:160: objDesc.Name = "Projects"
+TRACE 2016/04/07 08:05:55.155946 projects.go:164: Starting ProjectService.Get()
+TRACE 2016/04/07 08:05:55.155996 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:05:55.223038 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:07:17.428553 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:07:17.428623 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:07:17.428667 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:07:17.428715 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:07:17.428754 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:07:17.428791 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:07:17.428841 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:07:17.430105 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:07:17.430209 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"default", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:07:17.430223 commands.go:92: Running command(default) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:07:17.430232 commands.go:160: objDesc.Name = "Defaults"
+TRACE 2016/04/07 08:07:17.430278 defaults.go:69: Starting DefaultsService.List()
+TRACE 2016/04/07 08:08:19.615529 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:08:19.615567 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:08:19.615623 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:08:19.615678 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:08:19.615731 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:08:19.615758 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:08:19.615806 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:08:19.642188 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:08:19.642250 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"defaults", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:08:19.642277 commands.go:92: Running command(defaults) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:08:19.642288 commands.go:160: objDesc.Name = "Defaults"
+TRACE 2016/04/07 08:08:19.642307 defaults.go:69: Starting DefaultsService.List()
+TRACE 2016/04/07 08:09:46.914432 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:09:46.914529 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:09:46.914589 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:46.914627 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:09:46.914672 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:46.914703 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:46.914734 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:46.916143 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:09:46.916209 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}}
+TRACE 2016/04/07 08:09:46.916238 commands.go:92: Running command(release) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}) help(false)
+TRACE 2016/04/07 08:09:46.916268 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:09:46.916372 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:09:46.985609 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:09:46.985782 uuidParser.go:162: ==> Expanding 0 to 0b0f4bff-fb29-11e5-9771-0242ac110859
+TRACE 2016/04/07 08:09:46.985799 releases.go:177: Starting ServiceService.Get()
+TRACE 2016/04/07 08:09:46.985816 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs/0b0f4bff-fb29-11e5-9771-0242ac110859/releases?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:09:47.025337 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:09:56.971341 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:09:56.971397 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:09:56.971476 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:56.971511 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:09:56.971547 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:56.971580 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:56.971614 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:09:56.973172 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:09:56.973243 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "1"}}
+TRACE 2016/04/07 08:09:56.973273 commands.go:92: Running command(release) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "1"}) help(false)
+TRACE 2016/04/07 08:09:56.973282 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:09:56.973368 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:09:57.031686 client.go:159: Request status code 200 (200 OK)
+ERROR 2016/04/07 08:09:57.032070 commands.go:98: Releases Get: Argument argument environmentId is invalid: no environmentId found matching 1
+TRACE 2016/04/07 08:10:09.945187 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:10:09.945257 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:10:09.945319 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:09.945366 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:10:09.945425 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:09.945456 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:09.945508 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:09.946704 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:10:09.946803 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}}
+TRACE 2016/04/07 08:10:09.946833 commands.go:92: Running command(release) subcommand(getall) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}) help(false)
+TRACE 2016/04/07 08:10:09.946844 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:10:09.946932 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:10.005820 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:10:10.006044 uuidParser.go:162: ==> Expanding 0 to 0b0f4bff-fb29-11e5-9771-0242ac110859
+TRACE 2016/04/07 08:10:10.006111 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs/0b0f4bff-fb29-11e5-9771-0242ac110859/releases?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:10.042029 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:10:11.992974 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:10:11.993036 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:10:11.993089 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:11.993121 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:10:11.993158 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:11.993198 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:11.993242 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:11.994393 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:10:11.994508 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:10:11.994523 commands.go:92: Running command(release) subcommand(getall) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:10:11.994532 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:10:11.994788 commands.go:98: Releases GetAll: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:10:17.584669 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:10:17.584743 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:10:17.584817 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:17.584876 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:10:17.584911 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:17.584946 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:17.584986 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:17.586193 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:10:17.586289 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "2"}}
+TRACE 2016/04/07 08:10:17.586313 commands.go:92: Running command(release) subcommand(getall) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "2"}) help(false)
+TRACE 2016/04/07 08:10:17.586321 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:10:17.586419 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:17.656497 client.go:159: Request status code 200 (200 OK)
+ERROR 2016/04/07 08:10:17.656957 commands.go:98: Releases GetAll: Argument argument environmentId is invalid: no environmentId found matching 2
+TRACE 2016/04/07 08:10:18.808786 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:10:18.808846 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:10:18.808895 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:18.808948 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:10:18.808990 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:18.809017 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:18.809067 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:18.810330 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:10:18.810442 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "3"}}
+TRACE 2016/04/07 08:10:18.810459 commands.go:92: Running command(release) subcommand(getall) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "3"}) help(false)
+TRACE 2016/04/07 08:10:18.810482 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:10:18.810573 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:18.869827 client.go:159: Request status code 200 (200 OK)
+ERROR 2016/04/07 08:10:18.871632 commands.go:98: Releases GetAll: Argument argument environmentId is invalid: no environmentId found matching 3
+TRACE 2016/04/07 08:10:25.439532 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:10:25.439610 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:10:25.439660 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:25.439696 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:10:25.439732 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:25.439761 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:25.439804 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:10:25.441719 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:10:25.441805 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}}
+TRACE 2016/04/07 08:10:25.441869 commands.go:92: Running command(release) subcommand(getall) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}) help(false)
+TRACE 2016/04/07 08:10:25.441880 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:10:25.441984 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:25.513351 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:10:25.513619 uuidParser.go:162: ==> Expanding 0 to 0b0f4bff-fb29-11e5-9771-0242ac110859
+TRACE 2016/04/07 08:10:25.513662 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs/0b0f4bff-fb29-11e5-9771-0242ac110859/releases?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:10:25.552095 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:11:03.986996 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:11:03.987074 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:11:03.987116 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:03.987156 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:11:03.987206 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:03.987247 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:03.987275 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:03.988266 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:11:03.988354 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"projects/be5054a1-fb28-11e5-9763-0242ac110859/services/c46ee200-fb28-11e5-ae67-0242ac1103f9"}}
+TRACE 2016/04/07 08:11:03.988374 commands.go:92: Running command(release) subcommand(get) args([]string{"projects/be5054a1-fb28-11e5-9763-0242ac110859/services/c46ee200-fb28-11e5-ae67-0242ac1103f9"}) help(false)
+TRACE 2016/04/07 08:11:03.988383 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:11:03.988634 commands.go:98: Releases Get: Argument argument projectId is invalid: uuid: length of UUID string "projects/be5054a1-fb28-11e5-9763-0242ac110859/services/c46ee200-fb28-11e5-ae67-0242ac1103f9" is invalid, it should be 36 (standard) or 32 (without dash)
+TRACE 2016/04/07 08:11:14.377163 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:11:14.377227 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:11:14.377284 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:14.377324 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:11:14.377977 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:14.378012 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:14.378060 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:14.379118 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:11:14.379205 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}}
+TRACE 2016/04/07 08:11:14.379222 commands.go:92: Running command(release) subcommand(get) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}) help(false)
+TRACE 2016/04/07 08:11:14.379240 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:11:14.379332 releases.go:177: Starting ServiceService.Get()
+TRACE 2016/04/07 08:11:14.379370 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/envs/c46ee200-fb28-11e5-ae67-0242ac1103f9/releases?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:11:14.461578 client.go:159: Request status code 404 (404 Not Found)
+ERROR 2016/04/07 08:11:14.461841 commands.go:98: Error 404 Not Found - 404 page not found
+
+TRACE 2016/04/07 08:11:37.245813 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:11:37.245931 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:11:37.246025 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:37.246073 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:11:37.246144 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:37.246176 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:37.246251 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:37.247522 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:11:37.247610 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"releases", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:11:37.247641 commands.go:92: Running command(releases) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:11:37.247652 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:11:37.247714 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:11:37.248070 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:11:39.598822 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:11:39.598869 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:11:39.598910 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:39.598952 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:11:39.598988 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:39.599017 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:39.599070 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:39.600082 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:11:39.600148 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:11:39.600162 commands.go:92: Running command(release) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:11:39.600191 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:11:39.600226 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:11:39.600460 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:11:42.061211 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:11:42.061286 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:11:42.061368 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:42.061443 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:11:42.061522 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:42.061557 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:42.061613 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:11:42.063054 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:11:42.063139 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getall", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:11:42.063172 commands.go:92: Running command(release) subcommand(getall) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:11:42.063182 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:11:42.063250 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:11:42.063563 commands.go:98: Releases GetAll: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:12:02.337468 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:12:02.337520 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:12:02.337558 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:02.337601 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:12:02.337638 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:02.337664 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:02.337719 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:02.338779 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:12:02.338845 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:12:02.338858 commands.go:92: Running command(release) subcommand() args([]string(nil)) help(false)
+TRACE 2016/04/07 08:12:02.338865 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:12:02.339518 commands.go:98: Command Releases requires a subcommand
+TRACE 2016/04/07 08:12:10.244583 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:12:10.244651 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:12:10.244728 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:10.244781 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:12:10.244816 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:10.244855 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:10.245439 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:10.246545 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:12:10.246605 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"get", Arguments:[]string(nil)}
+TRACE 2016/04/07 08:12:10.246631 commands.go:92: Running command(release) subcommand(get) args([]string(nil)) help(false)
+TRACE 2016/04/07 08:12:10.246641 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:12:10.246682 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+ERROR 2016/04/07 08:12:10.246923 commands.go:98: Releases Get: Required UUID argument environmentId not provided and no saved value of environmentId available
+TRACE 2016/04/07 08:12:25.570873 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:12:25.570935 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:12:25.570978 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:25.571013 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:12:25.571045 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:25.571099 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:25.571119 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:25.572173 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:12:25.572238 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:12:25.572252 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:12:25.572281 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:12:25.572582 commands.go:98: Releases GetById: Required UUID argument releaseId not provided and no saved value of releaseId available
+TRACE 2016/04/07 08:12:31.553152 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:12:31.553228 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:12:31.553295 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:31.553370 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:12:31.553428 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:31.553458 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:31.553494 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:31.555343 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:12:31.555465 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}}
+TRACE 2016/04/07 08:12:31.555483 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"be5054a1-fb28-11e5-9763-0242ac110859", "0"}) help(false)
+TRACE 2016/04/07 08:12:31.555493 commands.go:160: objDesc.Name = "Releases"
+ERROR 2016/04/07 08:12:31.555807 commands.go:98: Releases GetById: Argument argument releaseId is invalid: no releaseId found matching 0
+TRACE 2016/04/07 08:12:46.618629 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:12:46.618710 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:12:46.618769 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:46.618812 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:12:46.618861 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:46.618894 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:46.618946 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:12:46.620334 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:12:46.620405 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"$", "be5054a1-fb28-11e5-9763-0242ac110859"}}
+TRACE 2016/04/07 08:12:46.620434 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"$", "be5054a1-fb28-11e5-9763-0242ac110859"}) help(false)
+TRACE 2016/04/07 08:12:46.620445 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:12:46.620486 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+TRACE 2016/04/07 08:12:46.620569 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/releases/be5054a1-fb28-11e5-9763-0242ac110859/status?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:12:46.689988 client.go:159: Request status code 200 (200 OK)
+TRACE 2016/04/07 08:13:19.207642 config.go:100: .shipped directory already exists
+TRACE 2016/04/07 08:13:19.207721 config.go:109: Config file .shipped/shipped.ini already exists in /root
+TRACE 2016/04/07 08:13:19.207814 config.go:139: Using config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:13:19.207864 main.go:172: CLI start directory is /home/ubuntu/DCTech1/dctech1
+TRACE 2016/04/07 08:13:19.207939 config.go:139: Using config file /home/ubuntu/DCTech1/dctech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:13:19.207981 config.go:148: Also using project config file /home/ubuntu/DCTech1/.shipped/shipped.ini
+TRACE 2016/04/07 08:13:19.208026 config.go:158: Also using home config file /root/.shipped/shipped.ini
+TRACE 2016/04/07 08:13:19.211183 utils.go:98: Console width is 156; help width is 120
+TRACE 2016/04/07 08:13:19.211276 main.go:137: Shipped-cli 1.0 b139 20160219 170955 starting with args struct { BootLogfile string; ConfigFile string; ConsoleMode bool; Debug bool; Expanded bool; FastBootstrap bool; Force bool; Full bool; Help bool; Json bool; Latest bool; LocalDocker bool; Logfile string; MockSDKClient bool; OutputFields string; RunAsRootOK bool; ShippedHome string; ShowVersion bool; Server string; Token string; VM string; ObjType string; Command string; Arguments []string }{BootLogfile:"", ConfigFile:"", ConsoleMode:false, Debug:false, Expanded:true, FastBootstrap:false, Force:false, Full:false, Help:false, Json:false, Latest:false, LocalDocker:false, Logfile:"/home/ubuntu/DCTech1/dctech1/shipped-cli.log", MockSDKClient:false, OutputFields:"", RunAsRootOK:false, ShippedHome:"", ShowVersion:false, Server:"https://api.ciscoshipped.io", Token:"mgdkREuJmdQfIrlqykbblzpkBCkvYKRo", VM:"vagrant", ObjType:"release", Command:"getbyid", Arguments:[]string{"$", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}}
+TRACE 2016/04/07 08:13:19.211293 commands.go:92: Running command(release) subcommand(getbyid) args([]string{"$", "c46ee200-fb28-11e5-ae67-0242ac1103f9"}) help(false)
+TRACE 2016/04/07 08:13:19.211313 commands.go:160: objDesc.Name = "Releases"
+TRACE 2016/04/07 08:13:19.211381 uuidParser.go:196: ==> Using projectId be5054a1-fb28-11e5-9763-0242ac110859
+TRACE 2016/04/07 08:13:19.211468 client.go:114: GET https://api.ciscoshipped.io/projects/be5054a1-fb28-11e5-9763-0242ac110859/releases/c46ee200-fb28-11e5-ae67-0242ac1103f9/status?api_token=mgdkREuJmdQfIrlqykbblzpkBCkvYKRo
+TRACE 2016/04/07 08:13:19.274514 client.go:159: Request status code 200 (200 OK)
